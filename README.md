@@ -20,6 +20,7 @@ pip install -r requirements.txt
 - data/ — CSV dataset - WISDM_raw.csv
 - notebook/ — `finaltermproject.ipynb` 
 - report/ — `thakre_srushti_finaltermproject/pdf` 
+- results/ —  saved outputs: per-fold CSVs, summary_means.csv, ROC plots
 - src/ — source code  
   - `build_wisdm_raw_csv.py` — prepares trimmed CSV from raw dataset
   - `run_wisdm_cv.py` — runs 10-fold GroupKFold CV for RF, SVM, and GRU
